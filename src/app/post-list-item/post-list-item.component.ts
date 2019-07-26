@@ -17,13 +17,13 @@ export class PostListItemComponent implements OnInit {
   }
 
   onLoveIts() {
-    // console.log("Love it!");
+    
      return this.loveIts++;
 
   }
 
   onDontLoveIts() {
-    // console.log("Don't love it!");
+    
     return this.loveIts--;
   }
 
